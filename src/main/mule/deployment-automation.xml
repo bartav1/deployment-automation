@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="deployment-automationFlow" doc:id="1f41541e-ecbf-4f71-a667-451130cb3dc6" >
 		<http:listener doc:name="Listener" doc:id="630bf784-9381-46eb-ac63-1b38ba4f631d" config-ref="HTTP_Listener_config" path="/deploy"/>
-		<logger level="INFO" doc:name="Logger" doc:id="e85c72e8-831b-42af-8427-2a1da642cb3e" message="App deployed to git"/>
+		<logger level="INFO" doc:name="Logger" doc:id="e85c72e8-831b-42af-8427-2a1da642cb3e" message="App deployed to github"/>
 	</flow>
 </mule>
